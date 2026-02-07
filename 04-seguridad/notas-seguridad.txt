@@ -1,0 +1,4 @@
+- Cifrado BitTorrent: Forced
+- Bloqueadas conexiones legacy
+- Escaneo Defender OK
+- VirusTotal: 0 detecciones
