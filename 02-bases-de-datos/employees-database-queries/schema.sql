@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS CP_UD5;
+USE CP_UD5;
+
+CREATE TABLE Empleados (
+    DNI INT PRIMARY KEY NOT NULL,
+    Nombre VARCHAR(45),
+    Apellidos VARCHAR(45),
+    Fecha_Nac DATE,
+    N_hijos INT DEFAULT NULL,
+    estatura DOUBLE
+);
