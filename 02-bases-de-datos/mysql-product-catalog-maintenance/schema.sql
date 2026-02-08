@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS TiendaMuebles;
+USE TiendaMuebles;
+
+CREATE TABLE Productos (
+    idproducto INT AUTO_INCREMENT PRIMARY KEY,
+    NombreP VARCHAR(100) NOT NULL,
+    Precio DECIMAL(10,2) NOT NULL,
+    CategoriaP VARCHAR(50) NOT NULL
+);
