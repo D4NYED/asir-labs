@@ -1,0 +1,8 @@
+md "prueba clientes"
+cd "prueba clientes"
+copy nul > cliente1.txt
+copy cliente1.txt cliente2.txt
+del cliente2.txt
+xcopy "prueba clientes" prueba1 /E /I
+ren "prueba1" "prueba2"
+rmdir /S "prueba2"
