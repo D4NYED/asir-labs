@@ -1,0 +1,5 @@
+- Autenticación con cuenta RealVNC
+- Contraseña remota obligatoria
+- Cifrado AES activado
+- Confirmación manual de conexiones
+- Desconexión de sesiones no autorizadas
