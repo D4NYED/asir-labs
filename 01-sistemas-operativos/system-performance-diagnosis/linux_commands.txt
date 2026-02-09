@@ -1,0 +1,21 @@
+# Monitor en tiempo real
+top
+htop
+
+# Listar procesos
+ps aux
+
+# Matar proceso
+kill -9 PID
+
+# Ejecutar con menor prioridad
+nice -n 10 proceso
+
+# Cambiar prioridad
+sudo renice +10 -p PID
+
+# Disco
+iotop
+
+# Red
+iftop
